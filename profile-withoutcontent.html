@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta content="width=display-width,initial-scale=1.0" charset="utf-8">
+    <title></title>
+<style>
+body{
+  margin:0;
+  padding:0;
+}
+.profile-page h1 {
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 0.51px;
+  color: #2d2d2d;
+  display: inline;
+}
+
+.profile-page h2 {
+  font-weight: 600;
+  font-size: 18px;
+  display: inline;
+  color: #575757;
+  letter-spacing: 0.31px;
+}
+
+.profile-page a {
+  font-size: 12px;
+  color: #f86d3a;
+  letter-spacing: 0.2px;
+}
+
+.profile-page p {
+  color: #575757;
+  font-size: 15px;
+  margin-bottom: 0;
+  line-height: 1.47;
+  color: #999999;
+}
+
+.profilePageRight{
+    width: calc(100% - 250px);
+    align-self: flex-start;
+    border-left: 2px solid #f5f5f5;
+}
+
+.profile-page {
+  display: flex;
+  flex-direction: column;
+  margin-left:269px;
+}
+
+.profile-page-section {
+  object-fit: contain;
+  box-shadow: 0 2px 3px 0 rgba(84, 84, 84, 0.16);
+  border: solid 1px #f2f2f2;
+  background-color: #ffffff;
+  min-height: 100px;
+  margin: 25px 50px 0px 50px;
+}
+
+.profile-page-section-head {
+  border-bottom: solid 1px rgba(84, 84, 84, 0.16);
+  display: flex;
+  height: 45px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-page-section-head-wrapper {
+  display: flex;
+  margin-left: 50px;
+  height: 100%;
+}
+
+.profile-page-section-head-title {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-right: 50px;
+  border-bottom: 2px solid #f86d3a;
+}
+
+.profile-page-section-head-title-string {
+  color: #575757;
+  letter-spacing: 0.26px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: proxima_novasemibold,sans-serif;
+}
+
+.profile-page-edit {
+  margin-right: 50px;
+}
+
+.profile-page-section-body {
+  padding: 0px 50px;
+}
+
+.profile-item-data {
+  font-size: 12px;
+  color: #575757;
+  letter-spacing: 0.2px;
+}
+
+.profile-page-section-body-item {
+  margin-bottom: 5px;
+}
+
+.profile-page-section-body .status-p{
+  font-size:16px;
+  font-weight: 600;
+}
+
+.add{
+  display:flex;
+  flex-direction:column;
+  margin-top:4px;
+}
+
+.add-content{
+  object-fit: contain;
+  background-color: #ffffff;
+  margin: 19px 50px 0px 50px;
+}
+
+.add-content-body {
+  padding: 0px 50px;
+}
+.add-content-body span{
+  font-size: 19px;
+  font-weight: 600;
+  color: #999999;
+}
+.add-content-body span:hover{
+  color: #505050;
+}
+.add-content-body .work-p{
+  color: #505050;
+
+}
+</style>
+  </head>
+<body>
+  <section class="profile-page">
+        <div class="profile-page-section">
+          <div class="profile-page-section-head">
+            <div class="profile-page-section-head-wrapper">
+              <div class="profile-page-section-head-title">
+                <span class="profile-page-section-head-title-string">
+                  About
+                </span>
+              </div>
+            </div>
+            <div class="profile-page-edit">
+              <img
+                src="EditIcon.png"
+                class="profile-page-edit-image"
+              />
+            </div>
+          </div>
+          <div class="profile-page-section-body">
+            <p>
+              + Tell us something about you.
+            </p>
+          </div>
+        </div>
+        <div class="profile-page-section">
+          <div class="profile-page-section-head">
+            <div class="profile-page-section-head-wrapper">
+              <div class="profile-page-section-head-title">
+                <span class="profile-page-section-head-title-string">
+                  Current Status
+                </span>
+              </div>
+              <div
+                class="profile-page-section-head-title"
+                style="border:none;"
+              >
+                <span class="profile-page-section-head-title-string">
+                  Activity
+                </span>
+              </div>
+            </div>
+            <div class="profile-page-edit">
+              <img
+                src="EditIcon.png"
+                class="profile-page-edit-image"
+              />
+            </div>
+          </div>
+          <div class="profile-page-section-body">
+            <p class="status-p">
+              + Add your current status
+            </p>
+          </div>
+        </div>
+        <div class="add">
+          <div class="add-content">
+            <div class="add-content-body">
+              <span class="work-p">
+                + Add your work Experiences.
+              </span>
+            </div>
+          </div>
+          <div class="add-content">
+            <div class="add-content-body">
+              <span>
+                + Add your Qualifications
+              </span>
+            </div>
+          </div>
+          <div class="add-content">
+            <div class="add-content-body">
+              <span>
+                + Add Achievements
+              </span>
+            </div>
+          </div>
+          <div class="add-content">
+            <div class="add-content-body">
+              <span>
+                + Add Research Papers.
+              </span>
+            </div>
+          </div>
+          <div class="add-content">
+            <div class="add-content-body">
+              <span>
+                + Add Projects.
+              </span>
+            </div>
+          </div>
+        </div>
+   </section>
+</body>
+</html>
